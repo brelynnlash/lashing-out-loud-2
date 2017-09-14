@@ -1,0 +1,457 @@
+body{
+  font-family: 'Playfair Display', serif;
+  font-family: 'Assistant', sans-serif;
+  background-color: #F2EEE7;
+}
+
+/*this is the navagation*/
+nav {
+  background-color: #F2EEE7;
+  height: ;
+  margin-bottom: ;
+  color: #151035;
+  font-size: 1.3em;
+}
+
+@media screen and (min-width: 768px){
+  .nav-home{
+  }
+}
+
+nav span{
+  font-family: 'Playfair Display', serif;
+  padding: 0em;
+}
+
+
+
+  nav a{
+    color: #151035;
+    text-decoration: none;
+  }
+
+  nav a.active {
+    color: #C54E30;
+  }
+
+  nav a:hover{
+    color: #C54E30;
+    background-color: #151035;
+  }
+
+  /*this is the home pages start*/
+  .name-home div{
+    background-color: #4B1430;
+    width: 100%;
+    height: 8em;
+  }
+
+  .name-home h1{
+    font-family: 'Assistant', sans-serif;
+    color: #F2EEE7;
+    margin-left: 1em;
+  }
+
+
+.portfolio-box{
+  background-color: #742234;
+  width: 100%;
+}
+
+.home div{
+  margin-left: 1em;
+  font-size: 2em;
+}
+
+.home div a{
+  color:#F2EEE7;
+}
+
+/*start of the works pages*/
+.work-page h3{
+  font-size: 1.3em;
+}
+
+.work-image{
+  position: relative;
+  margin-bottom: 3em;
+}
+
+@media screen and (min-width: 768px){
+  .work-page{
+    margin-left: 5em;
+  }
+
+  .work-page h3{
+    font-size: 1.5em;
+  }
+
+}
+
+
+
+.work-title{
+  position: absolute;
+  top: 4em;
+  text-align: right;
+  background-color: #C54E30;
+  color: #F2EEE7;
+  width: 100%;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-top: 0em;
+}
+
+.work-title-f{
+  position: absolute;
+  top: 4em;
+  text-align: right;
+  background-color: #4B1430;
+  color: #F2EEE7;
+  width: 100%;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-top: 0em;
+}
+
+.work-title-w{
+  position: absolute;
+  top: 4em;
+  text-align: right;
+  background-color: #613669;
+  color: #F2EEE7;
+  width: 100%;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-top: 0em;
+}
+
+.work-title-t{
+  position: absolute;
+  top: 4em;
+  text-align: right;
+  background-color: #151035;
+  color: #F2EEE7;
+  width: 100%;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-top: 0em;
+}
+
+.work-title-g{
+  position: absolute;
+  top: 4em;
+  text-align: right;
+  background-color: #C54E30;
+  color: #F2EEE7;
+  width: 100%;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-top: 0em;
+}
+
+.work-page{
+  padding-top: 3em;
+}
+
+.work-page a{
+  color: #F2EEE7;
+  text-decoration: none;
+}
+
+.work-title-g a:hover{
+  color: #151035;
+}
+
+.work-title-t a:hover{
+  color: #C54E30;
+}
+
+.work-title-w a:hover{
+  color: #151035;
+}
+
+.work-title-f a:hover{
+  color: #151035;
+}
+
+@media screen and (min-width: 992px){
+  .work-page h3{
+    font-size: 1.8em;
+  }
+}
+
+@media screen and (min-width: 1200px){
+  .work-page{
+    margin-left: 10em;
+  }
+
+  .work-title-f{
+    width: 57.2em;
+  }
+
+  .work-title-w{
+    width: 57.2em;
+  }
+
+  .work-title-g{
+    width: 57.2em;
+}
+.work-title-t{
+  width: 57.2em;
+}
+}
+
+/*this is the start of the individual work pages*/
+.work {
+ background-color: #4B1430;
+ height: 18em;
+}
+
+.work h1{
+  font-family: 'Playfair Display', serif;
+  width: 100%;
+  color: #F2EEE7;
+  padding-top: 2em;
+  padding-bottom: 1em;
+}
+
+.work-info h2{
+  font-family: 'Playfair Display', serif;
+  font-size: 1.8em;
+  line-height: 1.5em;
+  text-align: left;
+  font-weight: bold;
+  padding-top: 2em;
+  padding-bottom: .5em;
+}
+
+.work-info p{
+  font-size: 1.3em;
+  line-height: 1.5em;
+  padding-bottom: 1em;
+}
+
+.work-info img{
+  padding-bottom: 1em;
+}
+
+.work a{
+  background-color: #F2EEE7;
+}
+
+.exit h3{
+  font-size: 1.5em;
+  margin-top: 1em;
+  color: #F2EEE7;
+  text-decoration: none;
+}
+
+.work a{
+  color: #F2EEE7;
+  text-decoration: none;
+}
+
+.work a h3:hover{
+  color: #151035;
+  text-decoration: none;
+}
+
+@media screen and (min-width: 768px){
+  .work a h3{
+    font-size: 2em;
+  }
+
+  .work-info p{
+    width: 37em;
+    line-height: 1.7em;
+  }
+
+  .work-info h2{
+    font-size: 2em;
+  }
+
+}
+
+@media screen and (min-width: 992px){
+  .work a h3{
+    font-size: 2em;
+  }
+
+  .work h1{
+    font-size: 3em;
+  }
+
+  .work-info p{
+    width: 43em;
+    line-height: 1.7em;
+  }
+
+  .work-info h2{
+    font-size: 2.5em;
+    width: 20em;
+  }
+
+  .work-info{
+    margin-left: 4.6em;
+  }
+
+  .works{
+    margin-left:
+  }
+}
+
+@media screen and (min-width: 1200px){
+  .work a h3{
+    font-size: 2em;
+  }
+
+  .work h1{
+    font-size: 3em;
+  }
+
+  .work-info p{
+    width: 43em;
+    line-height: 1.7em;
+  }
+
+  .work-info h2{
+    font-size: 2.5em;
+    width: 20em;
+  }
+
+  .work-info{
+    margin-left: 12em;
+  }
+
+  .works{
+    margin-left:
+  }
+}
+
+/*this starts the about page*/
+.about{
+  padding-top: 2em;
+}
+
+.name-box{
+  background-color: #C54E30;
+  width: 22em;
+  margin-bottom: .5em;
+}
+
+.about h1{
+  font-size: 3em;
+  font-family: 'Playfair Display', serif;
+  color: #F2EEE7;
+}
+
+.about-info p{
+  font-size: 1.3em;
+  line-height: 1.4em;
+  padding-bottom: 1em;
+  padding-top: 1em;
+}
+
+.resume{
+  background-color: #151035;
+  height: 3em;
+}
+
+.resume p{
+  color: #F2EEE7;
+  margin-top: .5em;
+
+}
+
+.resume a p{
+  text-decoration: none;
+
+}
+
+.resume a p:hover{
+  text-decoration: none;
+  color: #C54E30;
+}
+
+.resume a:hover{
+text-decoration: none;
+}
+
+.about img{
+  position: absolute;
+
+}
+
+@media screen and (min-width: 768px){
+  .name-box{
+    position: relative;
+    top: 23em;
+    margin-bottom: 3em;
+
+  }
+
+  .about p{
+    padding-top: 0em;
+    padding-left: 1em;
+    margin-bottom: 4em;
+  }
+
+  .resume{
+    height: 3.5em;
+  }
+
+  .resume p{
+    font-size: 1.5em;
+  }
+
+}
+
+@media screen and (min-width: 992px){
+  .about p{
+    padding-top: 3em;
+    padding-left: 1em;
+    line-height: 1.8em;
+    padding-bottom: 4em;
+  }
+
+  .resume p{
+    padding-top: 0em;
+  }
+
+  .resume{
+    height: 4.2em;
+  }
+}
+
+@media screen and (min-width: 1200px){
+  .about-info p{
+    padding-left: 3em;
+    padding-bottom: 5em;
+
+  }
+
+  .about img{
+    width: 25em;
+  }
+
+  .resume{
+  }
+
+}
+
+
+/*this is the start of the footer*/
+footer a{
+  color: #151035;
+  font-family: 'Assistant', sans-serif;
+  padding-top: 2em;
+}
+
+footer ul{
+  padding-top: 2em;
+}
+
+footer a:hover{
+  color: #C54E30;
+}
